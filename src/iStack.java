@@ -1,4 +1,8 @@
 
-public interface iStack {
+public interface iStack <AnyType>{
+	
+   void push(AnyType item);
+   AnyType pop();
+   AnyType peek();
 
 }
