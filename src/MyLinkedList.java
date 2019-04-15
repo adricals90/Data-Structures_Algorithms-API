@@ -62,7 +62,7 @@ public class MyLinkedList<AnyType> implements AList<AnyType>{
 	
 	public Node<AnyType> getNode(int idx){
 		
-		return getNode(idx ,  0 , size()-1 );
+		return getNode(idx ,  0 , size()-1);	
 		
 	}
 
@@ -92,7 +92,6 @@ public class MyLinkedList<AnyType> implements AList<AnyType>{
 		p.prev = newNode;
 		listSize++; 
 		modCount++;  
-			
 	}
 
 	@Override

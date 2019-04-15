@@ -9,5 +9,7 @@ public interface AList<AnyType> extends Iterable<AnyType>{
      
      java.util.Iterator<AnyType> iterator();
      
+    
+     
 
 }
